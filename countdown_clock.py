@@ -44,12 +44,11 @@ def countdown():
     toast.show_toast("Notification","Timer is off", duration = 20, icon_path= NONE, threaded=True)  #show toast
      
 Label(window, text="Enter the time in HH:MM:SS ", font=('bold')).pack()
-Entry(window, textvariable=hour, width=30).pack()
-Entry(window, textvariable=minute, width=30).pack()
-Entry(window, textvariable=second, width=30).pack() 
+Entry(window, textvariable=hour, width=10).pack()
+Entry(window, textvariable=minute, width=10).pack()
+Entry(window, textvariable=second, width=10).pack() 
 
 Checkbutton(text='Check for music', onvalue =True, variable=check).pack()
 Button(window, text="Set countdown", command = countdown, bg= 'yellow').pack()
 window.update()
 window.mainloop()
-
