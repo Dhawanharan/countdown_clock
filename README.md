@@ -38,6 +38,14 @@ Notes:
 - This application is designed for Windows systems due to use of `winsound` and `win10toast`.
 - Ensure that system notifications are enabled to receive the timer alert.
 
+##  Update v1.1 – UI Improvements
+
+- Black background with white text
+- Larger countdown display at the top
+- Added Reset button
+- Cleaner UI layout
+
+
 Author:
 Dhawanharan Mahalingam (Project: Countdown Timer)
 
