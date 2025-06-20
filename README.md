@@ -45,7 +45,13 @@ Notes:
 - Added Reset button
 - Cleaner UI layout
 
+## Update v1.2 - UI Improvements & additional features 
+-Pause/Resume toggles with button text updating.
+-Side-by-side HH:MM:SS input fields (realistic layout).
+-Aligned and centered inputs with labels.
+-Used daemon=True for safe background thread.
 
 Author:
 Dhawanharan Mahalingam (Project: Countdown Timer)
+https://github.com/Dhawanharan
 
